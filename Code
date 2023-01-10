@@ -1,0 +1,119 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{RUPANGSHU BANIK} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91-9433959505 \\ Kharagpur,India} 
+\address{{banik@kgpian.iitkgp.ac.in } \\
+{ linkedin.com/in/rupangshu-banik-67a2b722a/} \\ \\{github.com/RupangshuBanik}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Indian Institute of Technology (IIT), Kharagpur}\hfill {December 2021- Present}\\
+Bachelor of Architecture, Architecture and Regional Planning, GPA : 8.7/10
+
+
+{\bf Sri Aurobindo Vidyamandir (SAVM), Chandannagar}\hfill {July 2019 - June 2021}\\ Class 12, West Bengal Council of Higher Secondary Education (WBCHSE), GPA :9.1/10
+
+
+{\bf Jogamaya Memorial Institute, Singur}\hfill {May 2018 - April 2019}\\ Class 10 , Indian Council of Secondary Education (ICSE) , GPA : 9.2/10
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+ 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{House Price Prediction using Machine Learning Techniques | Self Project}
+\\
+\textit{{Objective - Build a Machine Learning model to predict prices of houses based on different parameters} }
+\begin{itemize}
+\item Used Boston House dataset with 500+ entries and 13 input parameters to predict the output price of the house.
+\item Implemented and processed calculations using Machine Learning techniques like Linear Regression, Logistic Regression, and Gradient Descent to achieve an accuracy of 80.0000\%.
+\item Used Python libraries such as NumPy, pandas, matplotlib, and Scikit -Learn for loading and processing of data and data visualization.
+\end{itemize}
+\item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
+\item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS SUMMARY}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & | Python, C, C++, Java, HTML, CSS, SQL, Matlab, \LaTeX 
+\\
+Machine Learning Libraries & | Numpy, Matplotlib, Tensorflow, Keras\\
+Development Frameworks and Databases & | Django, NodeJS, ReactJS, MongoDB, MySQL\\
+Operating Systems & | Linux, Mac, Windows\\
+Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Matlab, Google Colab
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{COURSEWORK} 
+\begin{itemize}
+    \item 	\textbf{IIT KHARAGPUR :} Programming and Data Structures (CS10003), Programming and Data Structures Laboratory (CS19003),
+Linear Algebra (MA11004), Indigenous Technologies and Innovations Workshop (AR23304), Economics (HS21201), Computer
+Aided Design and Simulation (AR23303) , Modern Algebra (MA21202)
+    \item	\textbf{MOOCs:}   STATS 110(Stanford) — Machine Learning, DeepLearning.AI(Coursera) — Deep Learning
+\end{itemize}
+
+
+\end{rSection}
+\begin{rSection}{POSITION OF RESPONSIBILITIES(POR)} 
+\begin{itemize}
+    \item 	\textbf{Technology Adventure Society :}\hfill{Design and Core team member}\\\\ • Organised "Virtual Cycle Trip", which saw a record participation of 700+ students.\\
+• Organised "The Great Adventure Arena" in association with Spring Fest.\\
+• Organised Rappelling and Zipline events.\\
+• Organised an 8-Day Trek to Kedarkantha for 35+ students.\\
+    \item	\textbf{Entrepreneurship Cell :}\hfill{GES Intern (1st yr), Associate Member (2nd year)}\\\\
+    • I conducted the Entrepreneurship Awareness Drive Kolkata 2022 which witnessed the participation of 700+ Startup enthusiasts and Unicorn Startup founders as speakers.\\
+• Fixed a sponsorship deal for above 1 lakh rupees for 5 events across West Bengal \\
+• I was involved in successfully conducting the Global Entrepreneurship Summit 2022 at IIT Kharagpur.
+Global Entrepreneurship Summit(GES) is the annual corporate convergence of the Entrepreneurship Cell, IIT Kharagpur which witnesses events like guest lectures, technical workshops, start-up camps, conferences, online events, competitions, etc.\\
+• Responsible for the publicity of GES 2022 in West Bengal, media coverage was provided
+through 5+ media articles.\\
+• Worked in the Design Team and managed all participants and start-ups at the Summit, as well as involved with a group of 20 members for making digital posters, banners, ID Cards
+
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Extra Curricular Activities} 
+\begin{itemize}
+    \item \textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {Social Work}\\\\
+    •  Design and Public Relations member at Gopali Youth Welfare Society (GYWS),  a non-government organization (NGO) run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\
+    •  Organised and initiated "VEDIC MATHS WORKSHOP", which aims to develop fast and efficient calculation skills by engaging your children in easy-to-learn and exciting tricks and increasing their brain power and concentration.
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}
