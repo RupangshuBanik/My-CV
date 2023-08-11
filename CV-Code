@@ -7,7 +7,7 @@
 % You can merge both of these into a single line if you do not have a website.
 \address{+91-9433959505 \\ Kharagpur,India} 
 \address{{banik@kgpian.iitkgp.ac.in } \\
-{ linkedin.com/in/rupangshu-banik-67a2b722a/} \\ \\{github.com/RupangshuBanik}}  %
+\url{ linkedin.com/in/rupangshu-banik/} \\ \url{github.com/RupangshuBanik}}  %
 
 \begin{document}
 
@@ -23,7 +23,7 @@
 \begin{rSection}{Education}
 
 {\bf Indian Institute of Technology (IIT), Kharagpur}\hfill {December 2021- Present}\\
-Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.7/10
+Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 
 
 {\bf Sri Aurobindo Vidyamandir (SAVM), Chandannagar}\hfill {July 2019 - June 2021}\\ Class 12, West Bengal Council of Higher Secondary Education (WBCHSE), GPA:9.1/10
@@ -45,26 +45,76 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.7/10
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
+\begin{rSection}{INTERNSHIPS}
+\vspace{-1.25em}
+\item \textbf{Stanford University School of Medicine | Research Intern}\hfill {May 2023 - August 2023}
+\\
+\textit{{Objective - Build Machine learning models to monitor health in low and middle-income countries} }
+\vspace{-0.5em}
+\begin{itemize}
+\item Conducted Exploratory Data Analysis to locate outliers and visualize the data using scatter plots and heatmap created with Matplotlib.
+\vspace{-0.5em}
+\item Preprocessed the dataset by imputing the NaN values with mean and mode, and one-hot encoding the categorical features.
+\vspace{-0.5em}
+\item Used an ensemble of XGBoost, CATBoost, AdaBoost and Random Forest Regressor models to predict values of 6 independent labels.
+\vspace{-0.5em}
+\item  Improved the value of RMSE of test data by 14.94\% by tuning the parameters of the ensemble models using GridSearchCV.
+\end{itemize}
+
+\item \textbf{Centre of Excellence in Advanced Manufacturing Technology | Research Intern}\hfill {May 2023 - July 2023}
+\\
+\textit{Objective - Write code that detects weld lines in concrete molds using a a low-cost vision camera }
+\begin{itemize}
+\vspace{-0.5em}
+\item {Implemented an Image Processing Pipeline using Python and OpenCV to detect both vertical and horizontal lines in provided images for the selection and feature extraction of weld regions using the YOLOv5 model.}
+\vspace{-0.5em}
+\item {Demonstrated exceptional accuracy in detecting both minimal gap and substantial gap welding paths at seam points with a ±0.1 mm accuracy.}
+\vspace{-0.5em}
+\item {Utilized Boundary Subtraction and Connected Component algorithms to accurately identify abutting edges and eliminate image noise, ensuring high quality feature extraction.}
+\vspace{-0.5em}
+\item {Accurately measured weld path lengths and gaps for diverse shapes, including straight, zig-zag, and curve with an accuracy of ±1 mm.}
+\end{itemize}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+
 
 \begin{rSection}{PROJECTS}
 \vspace{-1.25em}
-\item \textbf{House Price Prediction using Machine Learning Techniques | Self Project}
+\item \textbf{Object Detection and Image Classification using Machine Learning Algorithms | Self Project}
 \\
-\textit{{Objective - Build a Machine Learning model to predict prices of houses based on different parameters} }
-\begin{itemize}
-\item Used Boston House dataset with 500+ entries and 13 input parameters to predict the output price of the house.
-\item Implemented and processed calculations using Machine Learning techniques like Linear Regression, Logistic Regression, and Gradient Descent to achieve an accuracy of 80.0000\%.
-\item Used Python libraries such as NumPy, pandas, matplotlib, and Scikit -Learn for loading and processing of data and data visualization.\\
-\end{itemize}
-\\
-\item \textbf{{Object Detection and Image Classification using Machine Learning Algorithms | Self Project}}\\
 \textit{{Objective - Build a Machine Learning model for detecting instances of objects in images and videos } }
 \begin{itemize}
+\vspace{-0.5em}
 \item   {Implemented Boosted Cascade and Haar Cascade classifiers to effectively allow the machine to identify real-life objects in videos and images.}
+\vspace{-0.5em}
 \item   {Effectuated Haar Cascade to train with numerous positive and negative images and train the classifier.}
+\vspace{-0.5em}
 \item   {Used Python libraries such as NumPy, OpenCV, matplotlib, and Scikit-Learn for loading and processing of data and data visualization as well as haar cascade XML file and PNG image for implementation.}
 \end{itemize}
+\\
+\item \textbf{Twitter Hate speech recognition using NLTK | Self Project}
+\\
+\textit{{Objective - Build a Machine Learning model to detect offensive or hate speech words in Twitter posts} }
+\begin{itemize}
+\vspace{-0.5em}
+\item Developed a machine learning model for detecting hate speech on Twitter using Python, NLTK library, and Scikit-learn.
+\vspace{-0.5em}
+\item Cleaned and preprocessed the Twitter data by removing URLs, user handles, hashtags, stopwords, and non-alphabetic characters.
+\vspace{-0.5em}
+\item Administered TfidfVectorizer  to convert the preprocessed  text into feature vectors and trained a Logistic Regression model on the feature vectors to classify tweets as either hate speech or non-hate speech and achieved an accuracy of 93.8\%
+\end{itemize}
 
+\item \textbf{Face Mask Recognition system using CNNs | Self Project}
+\\
+\textit{{Objective - Build a Machine Learning model to recognize whether a person in an image is wearing face mask or not} }
+\begin{itemize}
+\vspace{-0.5em}
+\item Trained the model using a dataset of images of people with and without masks, which was obtained from Kaggle using the Kaggle API. The images were resized to 128x128 pixels and converted to numpy arrays.
+\vspace{-0.5em}
+\item Plotted the loss and accuracy values during training and validation using matplotlib. Also, tested the model on new images and made predictions by resizing the images, scaling them, reshaping them, and using the model's predict() method.
+\end{itemize}
 \end{rSection} 
 
 %----------------------------------------------------------------------------------------
@@ -74,32 +124,35 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.7/10
 Languages & | Python, C, C++, Java, HTML, CSS, SQL, Matlab, \LaTeX 
 \\
 Machine Learning Libraries & | Numpy, Matplotlib, Tensorflow, Keras\\
-Development Frameworks and Databases & | Django, NodeJS, ReactJS, MongoDB, MySQL\\
 Operating Systems & | Linux, Mac, Windows\\
 Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Matlab, Google Colab
-\end{tabular}\\
+\end{tabular}
 \end{rSection}
 
 \begin{rSection}{COURSEWORK} \\
 \begin{itemize}
     \item 	\textbf{IIT KHARAGPUR :} Programming and Data Structures (CS10003), Programming and Data Structures Laboratory (CS19003),
 Linear Algebra (MA11004), Indigenous Technologies and Innovations Workshop (AR23304), Economics (HS21201), Computer
-Aided Design and Simulation (AR23303) , Modern Algebra (MA21202)
+Aided Design and Simulation (AR23303).
     \item	\textbf{MOOCs:}   STATS 110(Stanford) — Machine Learning, DeepLearning.AI(Coursera) — Deep Learning
 \end{itemize}
 
 
 \end{rSection}
-\begin{rSection}{POSITION OF RESPONSIBILITIES (POR)} 
+\begin{rSection}{POSITION OF RESPONSIBILITIES} 
 \begin{itemize}
-    \item 	\textbf{Technology Adventure Society :}\hfill{Design and Core team member}\\\\ • Organised "Virtual Cycle Trip", which saw a record participation of 700+ students.\\
-• Organised "The Great Adventure Arena" in association with Spring Fest.\\
-• Organised Rappelling and Zipline events.\\
-• Organised an 8-Day Trek to Kedarkantha for 35+ students.\\
-    \item	\textbf{Entrepreneurship Cell :}\hfill{GES Intern (1st yr), Associate Member (2nd year)}\\\\
-    • I conducted the Entrepreneurship Awareness Drive Kolkata 2022 which witnessed the participation of 700+ Startup enthusiasts and Unicorn Startup founders as speakers.\\
-• Fixed a sponsorship deal for above 1 lakh rupees for 5 events across West Bengal. \\
-• I was involved in successfully conducting the Global Entrepreneurship Summit 2022 at IIT Kharagpur.
+
+\item 	\textbf{Technology Adventure Society :}\hfill{Design and Core team member}
+\\
+• Successfully orchestrated the "Virtual Cycle Trip," boasting a participation of over 700 students.\\
+• Collaborated with Spring Fest to execute "The Great Adventure Arena," a highly successful event.\\
+• Skillfully coordinated exhilarating Rappelling and Zipline events.\\
+• Led a remarkable 8-Day Trek to Kedarkantha, catering to a group of 35+ enthusiastic students.
+\item
+\textbf{Entrepreneurship Cell :}\hfill{GES Intern (1st yr), Associate Member (2nd year)}
+\\
+• Conducted the Entrepreneurship Awareness Drive Kolkata 2022 which witnessed the participation of 700+ Startup enthusiasts and Unicorn Startup founders as speakers. \\
+• Involved in successfully conducting the Global Entrepreneurship Summit 2022 at IIT Kharagpur.
 Global Entrepreneurship Summit (GES) is the annual corporate convergence of the Entrepreneurship Cell, IIT Kharagpur which witnesses events like guest lectures, technical workshops, start-up camps, conferences, online events, competitions, etc.\\
 • Responsible for the publicity of GES 2022 in West Bengal, media coverage was provided
 through 5+ media articles.\\
@@ -114,9 +167,11 @@ through 5+ media articles.\\
 
 \begin{rSection}{Extra Curricular Activities} 
 \begin{itemize}
-    \item \textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {|Social Work}\\\\
-    •  Design and Public Relations member at Gopali Youth Welfare Society (GYWS),  a non-government organization (NGO) run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\\\
-    •  Organised and initiated "VEDIC MATHS WORKSHOP", which aims to develop fast and efficient calculation skills by engaging children in easy-to-learn and exciting tricks and increasing their brain power and concentration.
+\item \textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {|Social Work}\\
+•  Design and Public Relations member at Gopali Youth Welfare Society (GYWS), a non-government organization (NGO) run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\
+•  Organised and initiated "VEDIC MATHS WORKSHOP", which aims to develop fast and efficient calculation skills by engaging children in easy-to-learn and exciting tricks and increasing their brain power and concentration.\\
+•  Spearheaded Freshers' Selection Meet and shortlisted 10 candidates out of 60+ candidates, who were highly skilled, aspirational and motivated to continue the legacy of GYWS forward.\\
+•  Conducted the Introductory Workshop to groom the newly selcted freshers to accustom them with work environment of GYWS. 
 \end{itemize}
 
 
