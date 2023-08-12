@@ -7,7 +7,7 @@
 % You can merge both of these into a single line if you do not have a website.
 \address{+91-9433959505 \\ Kharagpur,India} 
 \address{{banik@kgpian.iitkgp.ac.in } \\
-\url{ linkedin.com/in/rupangshu-banik/} \\ \url{github.com/RupangshuBanik}}  %
+\\url{ linkedin.com/in/rupangshu-banik/} \\ \url{github.com/RupangshuBanik}}  %
 
 \begin{document}
 
@@ -52,27 +52,27 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 \textit{{Objective - Build Machine learning models to monitor health in low and middle-income countries} }
 \vspace{-0.5em}
 \begin{itemize}
-\item Conducted Exploratory Data Analysis to locate outliers and visualize the data using scatter plots and heatmap created with Matplotlib.
+\item Conducted \textbf{Exploratory Data Analysis} to locate outliers and visualize the data using \textbf{scatter plots} and \textbf{heatmap} created with \textbf{Matplotlib}.
 \vspace{-0.5em}
-\item Preprocessed the dataset by imputing the NaN values with mean and mode, and one-hot encoding the categorical features.
+\item Preprocessed the dataset by imputing the \textbf{NaN} values with \textbf{mean, mode}, and \textbf{one-hot encoding} the categorical features.
 \vspace{-0.5em}
-\item Used an ensemble of XGBoost, CATBoost, AdaBoost and Random Forest Regressor models to predict values of 6 independent labels.
+\item Used an \textbf{ensemble} of \textbf{XGBoost, CATBoost, AdaBoost} and \textbf{Random Forest Regressor} models to predict values of \textbf{6 independent} labels.
 \vspace{-0.5em}
-\item  Improved the value of RMSE of test data by 14.94\% by tuning the parameters of the ensemble models using GridSearchCV.
+\item  Improved the value of \textbf{RMSE} of test data by \textbf{14.94\%} by tuning the parameters of the ensemble models using \textbf{GridSearchCV}.
 \end{itemize}
-
+\vspace{-0.5em}
 \item \textbf{Centre of Excellence in Advanced Manufacturing Technology | Research Intern}\hfill {May 2023 - July 2023}
 \\
 \textit{Objective - Write code that detects weld lines in concrete molds using a a low-cost vision camera }
 \begin{itemize}
 \vspace{-0.5em}
-\item {Implemented an Image Processing Pipeline using Python and OpenCV to detect both vertical and horizontal lines in provided images for the selection and feature extraction of weld regions using the YOLOv5 model.}
+\item {Implemented an \textbf{Image Processing Pipeline} using \textbf{Python }and \textbf{OpenCV} to detect both vertical and horizontal lines in provided images for the selection and feature extraction of weld regions using the \textbf{YOLOv5} model.}
 \vspace{-0.5em}
-\item {Demonstrated exceptional accuracy in detecting both minimal gap and substantial gap welding paths at seam points with a ±0.1 mm accuracy.}
+\item {Demonstrated exceptional accuracy in detecting both \textbf{minimal gap} and \textbf{substantial gap} welding paths at seam points with a \textbf{±0.1 mm} accuracy.}
 \vspace{-0.5em}
-\item {Utilized Boundary Subtraction and Connected Component algorithms to accurately identify abutting edges and eliminate image noise, ensuring high quality feature extraction.}
+\item {Utilized \textbf{Boundary Subtraction} and \textbf{Connected Component} algorithms to accurately identify \textbf{abutting edges} and eliminate \textbf{image noise}, ensuring high quality feature extraction.}
 \vspace{-0.5em}
-\item {Accurately measured weld path lengths and gaps for diverse shapes, including straight, zig-zag, and curve with an accuracy of ±1 mm.}
+\item {Accurately measured weld path lengths and gaps for diverse shapes, including \textbf{straight}, \textbf{zig-zag}, and \textbf{curve} with an accuracy of \textbf{±1 mm}.}
 \end{itemize}
 \end{rSection}
 
@@ -82,38 +82,41 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 
 \begin{rSection}{PROJECTS}
 \vspace{-1.25em}
-\item \textbf{Object Detection and Image Classification using Machine Learning Algorithms | Self Project}
+\item \textbf{Credit Card Fraud Detection System with GUI Deployment | Self Project}
 \\
-\textit{{Objective - Build a Machine Learning model for detecting instances of objects in images and videos } }
+\textit{{Objective - Build an end-to-end Machine Learning model for detecting frauds in credit card transactions } }
 \begin{itemize}
 \vspace{-0.5em}
-\item   {Implemented Boosted Cascade and Haar Cascade classifiers to effectively allow the machine to identify real-life objects in videos and images.}
+\item   {Addressed class imbalance through \textbf{sampling techniques}, enhancing the model's ability to detect both normal and fraudulent transactions and accomplished an \textbf{F1 score of 100\%}. }
 \vspace{-0.5em}
-\item   {Effectuated Haar Cascade to train with numerous positive and negative images and train the classifier.}
+\item   {Employed \textbf{Random Forest Classifier} optimized via cross validation, to effectively identify complex transaction patterns and discern between normal and fraudulent transactions.Achieved an Accuracy Score of \textbf{99.9918\%}.}
 \vspace{-0.5em}
-\item   {Used Python libraries such as NumPy, OpenCV, matplotlib, and Scikit-Learn for loading and processing of data and data visualization as well as haar cascade XML file and PNG image for implementation.}
+\item   {Designed the GUI application with \textbf{Tkinter}, that enables real time user input, prediction, and display of transaction authenticity.}
 \end{itemize}
+\vspace{-0.5em}
+\item \textbf{Email and SMS Spam Classifier | Self Project}
 \\
-\item \textbf{Twitter Hate speech recognition using NLTK | Self Project}
-\\
-\textit{{Objective - Build a Machine Learning model to detect offensive or hate speech words in Twitter posts} }
+\textit{Objective - Build a robust end-to-end model to detect whether an email or sms is spam or not}
 \begin{itemize}
 \vspace{-0.5em}
-\item Developed a machine learning model for detecting hate speech on Twitter using Python, NLTK library, and Scikit-learn.
+\item Followed a systematic approach to the project life cycle, encompassing \textbf{data cleaning, exploratory data analysis, feature engineering, model building}, evaluation, and improvement of model.
 \vspace{-0.5em}
-\item Cleaned and preprocessed the Twitter data by removing URLs, user handles, hashtags, stopwords, and non-alphabetic characters.
+\item Employed \textbf{Natural Language Processing (NLP)} techniques, including text preprocessing, tokenization, stemming, and removal of stop words and punctuation.
 \vspace{-0.5em}
-\item Administered TfidfVectorizer  to convert the preprocessed  text into feature vectors and trained a Logistic Regression model on the feature vectors to classify tweets as either hate speech or non-hate speech and achieved an accuracy of 93.8\%
-\end{itemize}
 
+\item Utilized the \textbf{TF-IDF (Term Frequency-Inverse Document Frequency)} vectorization technique to transform textual data into numerical features.
+\vspace{-0.5em}
+\item Trained and evaluated multiple classification algorithms, including \textbf{Naive Bayes, Random Forest, Support Vector Machine, XGBoost}, and used \textbf{Voting Classifier} to get an Accuracy of \textbf{98.16\%} and Precision of \textbf{99.17\%}.
+\vspace{-0.5em}
+\end{itemize}
 \item \textbf{Face Mask Recognition system using CNNs | Self Project}
 \\
 \textit{{Objective - Build a Machine Learning model to recognize whether a person in an image is wearing face mask or not} }
 \begin{itemize}
 \vspace{-0.5em}
-\item Trained the model using a dataset of images of people with and without masks, which was obtained from Kaggle using the Kaggle API. The images were resized to 128x128 pixels and converted to numpy arrays.
+\item Trained the model using a dataset of images of people with and without masks, which was obtained from \textbf{Kaggle} using the \textbf{Kaggle API}. The images were resized to \textbf{128x128 pixels} and converted to \textbf{numpy} arrays.
 \vspace{-0.5em}
-\item Plotted the loss and accuracy values during training and validation using matplotlib. Also, tested the model on new images and made predictions by resizing the images, scaling them, reshaping them, and using the model's predict() method.
+\item Plotted the loss and accuracy values during training and validation using \textbf{matplotlib}. Also, tested the model on new images and made predictions by \textbf{resizing} the images, \textbf{scaling} them, and \textbf{reshaping} them.
 \end{itemize}
 \end{rSection} 
 
@@ -123,8 +126,8 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Languages & | Python, C, C++, Java, HTML, CSS, SQL, Matlab, \LaTeX 
 \\
-Machine Learning Libraries & | Numpy, Matplotlib, Tensorflow, Keras\\
-Operating Systems & | Linux, Mac, Windows\\
+Machine Learning Libraries & | Numpy, Matplotlib, Tensorflow, Keras, PyTorch\\
+Operating Systems & | Linux, Mac, Windows, Ubuntu\\
 Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Matlab, Google Colab
 \end{tabular}
 \end{rSection}
@@ -134,6 +137,7 @@ Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Ma
     \item 	\textbf{IIT KHARAGPUR :} Programming and Data Structures (CS10003), Programming and Data Structures Laboratory (CS19003),
 Linear Algebra (MA11004), Indigenous Technologies and Innovations Workshop (AR23304), Economics (HS21201), Computer
 Aided Design and Simulation (AR23303).
+\vspace{-0.5em}
     \item	\textbf{MOOCs:}   STATS 110(Stanford) — Machine Learning, DeepLearning.AI(Coursera) — Deep Learning
 \end{itemize}
 
@@ -142,21 +146,20 @@ Aided Design and Simulation (AR23303).
 \begin{rSection}{POSITION OF RESPONSIBILITIES} 
 \begin{itemize}
 
-\item 	\textbf{Technology Adventure Society :}\hfill{Design and Core team member}
+\item 	\textbf{Technology Adventure Society (TADS) :}\hfill{Design and Core team member}
 \\
-• Successfully orchestrated the "Virtual Cycle Trip," boasting a participation of over 700 students.\\
-• Collaborated with Spring Fest to execute "The Great Adventure Arena," a highly successful event.\\
-• Skillfully coordinated exhilarating Rappelling and Zipline events.\\
-• Led a remarkable 8-Day Trek to Kedarkantha, catering to a group of 35+ enthusiastic students.
+• Successfully orchestrated the \textbf{Virtual Cycle Trip}, boasting participation of over \textbf{100 students}.\\
+• Conducted the \textbf{Introductory Seminar} along with 20 other Members and saw an attendance of \textbf{500} freshers, which later led to the registration of \textbf{300+} freshers.\\
+• Skillfully coordinated in conducting \textbf{Rappelling} and \textbf{Zipline} events held in Gymkhana and managed the registration of \textbf{150+} participants.\\
+• Successfully led the Design Team of \textbf{15+} members and coordinated with them to produce and control all posts on the social media handles of TADS.
 \item
+\vspace{-0.5em}
 \textbf{Entrepreneurship Cell :}\hfill{GES Intern (1st yr), Associate Member (2nd year)}
 \\
-• Conducted the Entrepreneurship Awareness Drive Kolkata 2022 which witnessed the participation of 700+ Startup enthusiasts and Unicorn Startup founders as speakers. \\
-• Involved in successfully conducting the Global Entrepreneurship Summit 2022 at IIT Kharagpur.
-Global Entrepreneurship Summit (GES) is the annual corporate convergence of the Entrepreneurship Cell, IIT Kharagpur which witnesses events like guest lectures, technical workshops, start-up camps, conferences, online events, competitions, etc.\\
-• Responsible for the publicity of GES 2022 in West Bengal, media coverage was provided
-through 5+ media articles.\\
-• Worked in the Design Team and managed all participants and start-ups at the Summit, as well as involved with a group of 20 members for making digital posters, banners, ID Cards.
+• Conducted the \textbf{Entrepreneurship Awareness Drive Kolkata 2022} which witnessed the participation of \textbf{700+ Startup enthusiasts} and \textbf{Unicorn Startup founders} as speakers. \\
+• Cooperately Involved with 50 other \textbf{GES Interns} in successfully conducting the \textbf{Global Entrepreneurship Summit 2022} at IIT Kharagpur.\\
+• Responsible for the publicity of \textbf{GES 2022} in \textbf{West Bengal}, media coverage was provided through \textbf{5+ media articles}.\\
+• Worked in the Design Team and managed all participants and start-ups at the Summit, as well as involved with a group of \textbf{20} members for making \textbf{digital posters}, \textbf{banners}, \textbf{ID Cards}.
 
 \end{itemize}
 
@@ -168,10 +171,9 @@ through 5+ media articles.\\
 \begin{rSection}{Extra Curricular Activities} 
 \begin{itemize}
 \item \textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {|Social Work}\\
-•  Design and Public Relations member at Gopali Youth Welfare Society (GYWS), a non-government organization (NGO) run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\
-•  Organised and initiated "VEDIC MATHS WORKSHOP", which aims to develop fast and efficient calculation skills by engaging children in easy-to-learn and exciting tricks and increasing their brain power and concentration.\\
-•  Spearheaded Freshers' Selection Meet and shortlisted 10 candidates out of 60+ candidates, who were highly skilled, aspirational and motivated to continue the legacy of GYWS forward.\\
-•  Conducted the Introductory Workshop to groom the newly selcted freshers to accustom them with work environment of GYWS. 
+•  \textbf{Senior Executive Member} at Gopali Youth Welfare Society (GYWS), a \textbf{non-government organization (NGO)} run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\
+•  Spearheaded \textbf{Freshers' Selection Meet} and shortlisted \textbf{10 candidates} out of \textbf{60+ candidates}, who were highly skilled, aspirational and motivated to continue the legacy of GYWS forward.\\
+•  Conducted the \textbf{Introductory Workshop} to groom the newly selcted freshers to accustom them with work environment of GYWS. 
 \end{itemize}
 
 
