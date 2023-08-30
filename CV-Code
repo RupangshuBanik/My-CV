@@ -82,6 +82,30 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 
 \begin{rSection}{PROJECTS}
 \vspace{-1.25em}
+\item \textbf{AI Research Intern Task | Origin Medical}
+\\
+\textit{{Objective - Implement a deep learning-based model that is capable of classifying anatomical structure in 2D fetal ultrasound images } }
+\begin{itemize}
+\vspace{-0.5em}
+\item   {Curated, augmented, and preprocessed dataset of ultrasound images, evaluating model performance on the \textbf{train}, \textbf{validation}, and \textbf{external test sets}, while reducing \textbf{overfitting} through data augmentation techniques like \textbf{random horizontal/vertical flipping} and \textbf{image rotation}. }
+\vspace{-0.5em}
+\item   {Engineered a \textbf{Convolutional Neural Network} in TensorFlow to classify \textbf{1646} ultrasound images into \textbf{4} anatomical classes, achieving \textbf{94.3\%} accuracy on the test set, while optimizing the model architecture by experimenting with convolutional and dense layers, which led to an \textbf{accuracy improvement} from \textbf{33.6\%} to \textbf{94.3\%} across \textbf{50 epochs} of training.}
+\vspace{-0.5em}
+\item   {Analyzed model performance by visualizing \textbf{accuracy} and \textbf{loss graphs}, identifying training efficiency and generalization, revealing a high prediction accuracy of over \textbf{90\%} on external test images, effectively demonstrating the robustness of the model.}
+\end{itemize}
+\vspace{-0.5em}
+\item \textbf{AI/ML Engineering Research Intern Task - GBJ BUZZ Corporations Ltd.}
+\\
+\textit{{Objective - Build a sentiment analysis model that can predict whether a movie review is positive or negative.} }
+\begin{itemize}
+\vspace{-0.5em}
+\item   {Performed text preprocessing on 50,000 movie reviews, encompassing \textbf{HTML tag removal}, \textbf{lowercasing}, \textbf{punctuation removal}, \textbf{stopword removal}, and \textbf{stemming}, to prepare data for model training, along with comparing the performance of Logistic Regression models using \textbf{Bag-of-Words}, \textbf{Word2Vec}, \textbf{TF-IDF}, and \textbf{LDA feature extraction}, thereby achieving up to \textbf{85.5\%} accuracy. }
+\vspace{-0.5em}
+\item   {Identified the most positive and negative words using logistic regression coefficients to gain insights into model predictions, while utilizing \textbf{Word2Vec} for NLP through training a \textbf{100}-dimensional Word2Vec \textbf{skip-gram model} on a corpus of \textbf{50,000} reviews to generate \textbf{word embeddings}.}
+\vspace{-0.5em}
+\item   {Optimized various \textbf{hyperparameters} to discover the best-performing configuration, along with evaluating model performance by considering \textbf{accuracy, precision, recall}, and \textbf{F1-score}.}
+\end{itemize}
+\vspace{-0.5em}
 \item \textbf{Credit Card Fraud Detection System with GUI Deployment | Self Project}
 \\
 \textit{{Objective - Build an end-to-end Machine Learning model for detecting frauds in credit card transactions } }
@@ -94,30 +118,6 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 \item   {Designed the GUI application with \textbf{Tkinter}, that enables real time user input, prediction, and display of transaction authenticity.}
 \end{itemize}
 \vspace{-0.5em}
-\item \textbf{Email and SMS Spam Classifier | Self Project}
-\\
-\textit{Objective - Build a robust end-to-end model to detect whether an email or sms is spam or not}
-\begin{itemize}
-\vspace{-0.5em}
-\item Followed a systematic approach to the project life cycle, encompassing \textbf{data cleaning, exploratory data analysis, feature engineering, model building}, evaluation, and improvement of model.
-\vspace{-0.5em}
-\item Employed \textbf{Natural Language Processing (NLP)} techniques, including text preprocessing, tokenization, stemming, and removal of stop words and punctuation.
-\vspace{-0.5em}
-
-\item Utilized the \textbf{TF-IDF (Term Frequency-Inverse Document Frequency)} vectorization technique to transform textual data into numerical features.
-\vspace{-0.5em}
-\item Trained and evaluated multiple classification algorithms, including \textbf{Naive Bayes, Random Forest, Support Vector Machine, XGBoost}, and used \textbf{Voting Classifier} to get an Accuracy of \textbf{98.16\%} and Precision of \textbf{99.17\%}.
-\vspace{-0.5em}
-\end{itemize}
-\item \textbf{Face Mask Recognition system using CNNs | Self Project}
-\\
-\textit{{Objective - Build a Machine Learning model to recognize whether a person in an image is wearing face mask or not} }
-\begin{itemize}
-\vspace{-0.5em}
-\item Trained the model using a dataset of images of people with and without masks, which was obtained from \textbf{Kaggle} using the \textbf{Kaggle API}. The images were resized to \textbf{128x128 pixels} and converted to \textbf{numpy} arrays.
-\vspace{-0.5em}
-\item Plotted the loss and accuracy values during training and validation using \textbf{matplotlib}. Also, tested the model on new images and made predictions by \textbf{resizing} the images, \textbf{scaling} them, and \textbf{reshaping} them.
-\end{itemize}
 \end{rSection} 
 
 %----------------------------------------------------------------------------------------
