@@ -1,13 +1,21 @@
 \documentclass{resume} % Use the custom resume.cls style
 
+\usepackage{hyperref} 
+ \hypersetup{ 
+     colorlinks=true, 
+     linkcolor=black, 
+     filecolor=black, 
+     citecolor = black,       
+     urlcolor=black, 
+     }
+     
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{RUPANGSHU BANIK} % Your name
 % You can merge both of these into a single line if you do not have a website.
-\address{+91-9433959505 \\ Kharagpur,India} 
-\address{{banik@kgpian.iitkgp.ac.in } \\
-\\url{ linkedin.com/in/rupangshu-banik/} \\ \url{github.com/RupangshuBanik}}  %
+\address{+91-9433959505 \\ Kharagpur,India \\ \href{mailto:rupbanik00@gmail.com}{rupbanik00@gmail.com}}
+\address{\url{https://www.linkedin.com/in/rupangshu-banik/} \\ \url{https://www.github.com/RupangshuBanik}}  %
 
 \begin{document}
 
@@ -94,7 +102,7 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 \item   {Analyzed model performance by visualizing \textbf{accuracy} and \textbf{loss graphs}, identifying training efficiency and generalization, revealing a high prediction accuracy of over \textbf{90\%} on external test images, effectively demonstrating the robustness of the model.}
 \end{itemize}
 \vspace{-0.5em}
-\item \textbf{AI/ML Engineering Research Intern Task - GBJ BUZZ Corporations Ltd.}
+\item \textbf{AI/ML Engineering Research Intern Task | GBJ BUZZ Corporations Ltd.}
 \\
 \textit{{Objective - Build a sentiment analysis model that can predict whether a movie review is positive or negative.} }
 \begin{itemize}
@@ -106,54 +114,60 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 \item   {Optimized various \textbf{hyperparameters} to discover the best-performing configuration, along with evaluating model performance by considering \textbf{accuracy, precision, recall}, and \textbf{F1-score}.}
 \end{itemize}
 \vspace{-0.5em}
-\item \textbf{Credit Card Fraud Detection System with GUI Deployment | Self Project}
+\item \textbf{Dozeal.ai | Freelance Project}
 \\
-\textit{{Objective - Build an end-to-end Machine Learning model for detecting frauds in credit card transactions } }
+\textit{{Objective - Create a chatbot that interacts with clients in a human like manner to collect project information.} }
 \begin{itemize}
 \vspace{-0.5em}
-\item   {Addressed class imbalance through \textbf{sampling techniques}, enhancing the model's ability to detect both normal and fraudulent transactions and accomplished an \textbf{F1 score of 100\%}. }
+\item   {Created a dynamic and user-friendly chatbot using \textbf{Meta's Llama-2-7B-Chat model}, optimized for resource-constrained environments through \textbf{quantization}.}
 \vspace{-0.5em}
-\item   {Employed \textbf{Random Forest Classifier} optimized via cross validation, to effectively identify complex transaction patterns and discern between normal and fraudulent transactions.Achieved an Accuracy Score of \textbf{99.9918\%}.}
+\item   {Managed the conversation flow effectively, using a \textbf{slide-up concept} to tokenize issues and ensure smooth interactions along with applying quantization techniques to improve the chatbot's performance in \textbf{resource constrained} environments.}
 \vspace{-0.5em}
-\item   {Designed the GUI application with \textbf{Tkinter}, that enables real time user input, prediction, and display of transaction authenticity.}
+\item   {Designed and developed various features such as \textbf{natural language conversation flow}, \textbf{dynamic adaptation} to project descriptions, and \textbf{long conversation memory}, resulting in a more engaging and user-friendly chatbot experience.}
+\vspace{-0.5em}
+\item   {Implemented a \textbf{Streamlit} web application interface for seamless interaction, enabling efficient project information collection. Link -} \url{https://rupbanik-chatbot.streamlit.app/}
 \end{itemize}
 \vspace{-0.5em}
 \end{rSection} 
-
 %----------------------------------------------------------------------------------------
-\begin{rSection}{SKILLS SUMMARY}
 
+\begin{rSection}{Awards and Achievements}
+
+{• Achieved a \textbf{top 0.5\%} ranking among \textbf{1M+} candidates in the \textbf{2021} Joint Entrance Examination (JEE) Advanced.}\\
+{• Achieved a \textbf{top 0.6\%} ranking among \textbf{1M+} candidates in the \textbf{2021} Joint Entrance Examination (JEE) Mains.}\\
+{• Achieved a \textbf{top 1\%} ranking among \textbf{100K+} candidates in the \textbf{2021} West Bengal Joint Entrance Examination.}\\
+{• Secured selection among \textbf{10K+} kgpians for a prestigious \textbf{Foreign Training Program} through the \textbf{International Relations Cell} at \textbf{IIT Kharagpur}.}
+\end{rSection}
+\vspace{-0.5em}
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS SUMMARY}
+\vspace{-0.35em}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & | Python, C, C++, Java, HTML, CSS, SQL, Matlab, \LaTeX 
+Languages & | Python, R, C, C++, Java, HTML, CSS, SQL, Matlab, \LaTeX 
 \\
-Machine Learning Libraries & | Numpy, Matplotlib, Tensorflow, Keras, PyTorch\\
+Machine Learning Libraries & | Numpy, Matplotlib, Scikit-Learn, Tensorflow, OpenCV, PyTorch\\
+Development framework and Databases & | Flask, Docker, Kubernetes, GoLang, REST APIs, MySQL, PHP\\
 Operating Systems & | Linux, Mac, Windows, Ubuntu\\
-Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Matlab, Google Colab
+Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Matlab, Google Colab \\
+Architectural Softwares and Tools & | AutoCAD, Autodesk Revit, Sketchup, Lumion, Rhino\\
 \end{tabular}
 \end{rSection}
 
-\begin{rSection}{COURSEWORK} \\
+\begin{rSection}{COURSEWORK}
 \begin{itemize}
     \item 	\textbf{IIT KHARAGPUR :} Programming and Data Structures (CS10003), Programming and Data Structures Laboratory (CS19003),
 Linear Algebra (MA11004), Indigenous Technologies and Innovations Workshop (AR23304), Economics (HS21201), Computer
 Aided Design and Simulation (AR23303).
 \vspace{-0.5em}
     \item	\textbf{MOOCs:}   STATS 110(Stanford) — Machine Learning, DeepLearning.AI(Coursera) — Deep Learning
+\vspace{-0.5em}
 \end{itemize}
 
 
 \end{rSection}
 \begin{rSection}{POSITION OF RESPONSIBILITIES} 
 \begin{itemize}
-
-\item 	\textbf{Technology Adventure Society (TADS) :}\hfill{Design and Core team member}
-\\
-• Successfully orchestrated the \textbf{Virtual Cycle Trip}, boasting participation of over \textbf{100 students}.\\
-• Conducted the \textbf{Introductory Seminar} along with 20 other Members and saw an attendance of \textbf{500} freshers, which later led to the registration of \textbf{300+} freshers.\\
-• Skillfully coordinated in conducting \textbf{Rappelling} and \textbf{Zipline} events held in Gymkhana and managed the registration of \textbf{150+} participants.\\
-• Successfully led the Design Team of \textbf{15+} members and coordinated with them to produce and control all posts on the social media handles of TADS.
-\item
-\vspace{-0.5em}
 \textbf{Entrepreneurship Cell :}\hfill{GES Intern (1st yr), Associate Member (2nd year)}
 \\
 • Conducted the \textbf{Entrepreneurship Awareness Drive Kolkata 2022} which witnessed the participation of \textbf{700+ Startup enthusiasts} and \textbf{Unicorn Startup founders} as speakers. \\
@@ -170,10 +184,18 @@ Aided Design and Simulation (AR23303).
 
 \begin{rSection}{Extra Curricular Activities} 
 \begin{itemize}
-\item \textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {|Social Work}\\
-•  \textbf{Senior Executive Member} at Gopali Youth Welfare Society (GYWS), a \textbf{non-government organization (NGO)} run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\
+\textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {|Social Work}\\
+  \textbf{•  Senior Executive Member} at Gopali Youth Welfare Society (GYWS), a \textbf{non-government organization (NGO)} run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\
 •  Spearheaded \textbf{Freshers' Selection Meet} and shortlisted \textbf{10 candidates} out of \textbf{60+ candidates}, who were highly skilled, aspirational and motivated to continue the legacy of GYWS forward.\\
 •  Conducted the \textbf{Introductory Workshop} to groom the newly selcted freshers to accustom them with work environment of GYWS. 
+
+\item 	\textbf{Technology Adventure Society (TADS) :}\hfill{Design and Core team member}
+\\
+• Successfully orchestrated the \textbf{Virtual Cycle Trip}, boasting participation of over \textbf{100 students}.\\
+• Conducted the \textbf{Introductory Seminar} along with 20 other Members and saw an attendance of \textbf{500} freshers, which later led to the registration of \textbf{300+} freshers.\\
+• Skillfully coordinated in conducting \textbf{Rappelling} and \textbf{Zipline} events held in Gymkhana and managed the registration of \textbf{150+} participants.\\
+• Successfully led the Design Team of \textbf{15+} members and coordinated with them to produce and control all posts on the social media handles of TADS.
+\vspace{-0.5em}
 \end{itemize}
 
 
