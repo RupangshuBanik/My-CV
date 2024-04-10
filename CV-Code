@@ -27,17 +27,17 @@
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
+\vspace{-1em}
 \begin{rSection}{Education}
 
 {\bf Indian Institute of Technology (IIT), Kharagpur}\hfill {December 2021- Present}\\
-Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
+Bachelor of Architecture, Architecture and Regional Planning, CGPA: 8.59/10
+\vspace{-0.5em}
 
+%{\bf Sri Aurobindo Vidyamandir (SAVM), Chandannagar}\hfill {July 2019 - June 2021}\\ Class 12, West Bengal Council of Higher Secondary Education (WBCHSE), GPA:9.1/10
+%\vspace{-0.5em}
 
-{\bf Sri Aurobindo Vidyamandir (SAVM), Chandannagar}\hfill {July 2019 - June 2021}\\ Class 12, West Bengal Council of Higher Secondary Education (WBCHSE), GPA:9.1/10
-
-
-{\bf Jogamaya Memorial Institute, Singur}\hfill {May 2018 - April 2019}\\ Class 10, Indian Council of Secondary Education (ICSE), GPA: 9.2/10
+%{\bf Jogamaya Memorial Institute, Singur}\hfill {May 2018 - April 2019}\\ Class 10, Indian Council of Secondary Education (ICSE), GPA: 9.2/10
 %Minor in Linguistics \smallskip \\
 %Member of Eta Kappa Nu \\
 %Member of Upsilon Pi Epsilon \\
@@ -55,7 +55,17 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 %----------------------------------------------------------------------------------------
 \begin{rSection}{INTERNSHIPS}
 \vspace{-1.25em}
-\item \textbf{Stanford University School of Medicine | Research Intern}\hfill {May 2023 - August 2023}
+\item \textbf{Jupiter AI Labs Inc.| ML Intern}\hfill {(Feb 2024 - April 2024)}
+\vspace{-0.5em}
+\begin{itemize}
+\item Explored different \textbf{Stable Diffusion XL} fine tuning techniques like \textbf{LoRa, DreamBooth} etc. and used them to train the model on custom dataset.
+\vspace{-0.5em}
+\item Tested the best LoRa with different hyperparameters and ran it through a \textbf{ControlNet} pipeline to obtain quality images.
+\vspace{-0.5em}
+\item Annotated dataset of multiple images for hand sign recognition project and used \textbf{OpenCV} to find real time \textbf{3D} coordinates of \textbf{21} hand landmarks, utilizing \textbf{MediaPipe}. 
+
+\end{itemize}
+\item \textbf{Stanford University School of Medicine | Research Intern}\hfill {(May 2023 - August 2023)}
 \\
 \textit{{Objective - Build Machine learning models to monitor health in low and middle-income countries} }
 \vspace{-0.5em}
@@ -68,8 +78,8 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 \vspace{-0.5em}
 \item  Improved the value of \textbf{RMSE} of test data by \textbf{14.94\%} by tuning the parameters of the ensemble models using \textbf{GridSearchCV}.
 \end{itemize}
-\vspace{-0.5em}
-\item \textbf{Centre of Excellence in Advanced Manufacturing Technology | Research Intern}\hfill {May 2023 - July 2023}
+
+\item \textbf{Centre of Excellence in Advanced Manufacturing Technology | Research Intern}\hfill {(May 2023 - July 2023)}
 \\
 \textit{Objective - Write code that detects weld lines in concrete molds using a a low-cost vision camera }
 \begin{itemize}
@@ -86,59 +96,35 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 
 
 %----------------------------------------------------------------------------------------
-
-
-\begin{rSection}{PROJECTS}
+\begin{rSection}{Competitions and Hackathons}
 \vspace{-1.25em}
-\item \textbf{AI Research Intern Task | Origin Medical}
-\\
-\textit{{Objective - Implement a deep learning-based model that is capable of classifying anatomical structure in 2D fetal ultrasound images } }
+\item \textbf{Winner | Data Analytics Hackathon, NSSC, IIT Kharagpur}\hfill { September 2023}
+\vspace{-0.5em}
 \begin{itemize}
+\item {Performed \textbf{data preprocessing} and \textbf{visualization} to uncover \textbf{insights} and identify \textbf{trends} and \textbf{correlations} in the given exoplanet dataset.}
 \vspace{-0.5em}
-\item   {Curated, augmented, and preprocessed dataset of ultrasound images, evaluating model performance on the \textbf{train}, \textbf{validation}, and \textbf{external test sets}, while reducing \textbf{overfitting} through data augmentation techniques like \textbf{random horizontal/vertical flipping} and \textbf{image rotation}. }
-\vspace{-0.5em}
-\item   {Engineered a \textbf{Convolutional Neural Network} in TensorFlow to classify \textbf{1646} ultrasound images into \textbf{4} anatomical classes, achieving \textbf{94.3\%} accuracy on the test set, while optimizing the model architecture by experimenting with convolutional and dense layers, which led to an \textbf{accuracy improvement} from \textbf{33.6\%} to \textbf{94.3\%} across \textbf{50 epochs} of training.}
-\vspace{-0.5em}
-\item   {Analyzed model performance by visualizing \textbf{accuracy} and \textbf{loss graphs}, identifying training efficiency and generalization, revealing a high prediction accuracy of over \textbf{90\%} on external test images, effectively demonstrating the robustness of the model.}
+\item {Engineered features through PCA dimensionality reduction, imputation of missing values using KNN, and handling class imbalance.}
+
 \end{itemize}
+
+
+\item \textbf{Semi Finals | Hero Campus Challenge Season 9}\hfill { September 2023}
 \vspace{-0.5em}
-\item \textbf{AI/ML Engineering Research Intern Task | GBJ BUZZ Corporations Ltd.}
-\\
-\textit{{Objective - Build a sentiment analysis model that can predict whether a movie review is positive or negative.} }
 \begin{itemize}
+\item {Developed a cloud based connected vehicle platform to stream
+data to and from the vehicle, assuming vehicle volume of 100K scaled
+up to 10M+ globally.}
 \vspace{-0.5em}
-\item   {Performed text preprocessing on 50,000 movie reviews, encompassing \textbf{HTML tag removal}, \textbf{lowercasing}, \textbf{punctuation removal}, \textbf{stopword removal}, and \textbf{stemming}, to prepare data for model training, along with comparing the performance of Logistic Regression models using \textbf{Bag-of-Words}, \textbf{Word2Vec}, \textbf{TF-IDF}, and \textbf{LDA feature extraction}, thereby achieving up to \textbf{85.5\%} accuracy. }
-\vspace{-0.5em}
-\item   {Identified the most positive and negative words using logistic regression coefficients to gain insights into model predictions, while utilizing \textbf{Word2Vec} for NLP through training a \textbf{100}-dimensional Word2Vec \textbf{skip-gram model} on a corpus of \textbf{50,000} reviews to generate \textbf{word embeddings}.}
-\vspace{-0.5em}
-\item   {Optimized various \textbf{hyperparameters} to discover the best-performing configuration, along with evaluating model performance by considering \textbf{accuracy, precision, recall}, and \textbf{F1-score}.}
+\item {Created an AI based solution for vehicle and driver profile from the data
+received - for each trip and overall rides till date and presented our solution to Hero Motocorp panelists.}
+
 \end{itemize}
-\vspace{-0.5em}
-\item \textbf{Dozeal.ai | Freelance Project}
-\\
-\textit{{Objective - Create a chatbot that interacts with clients in a human like manner to collect project information.} }
-\begin{itemize}
-\vspace{-0.5em}
-\item   {Created a dynamic and user-friendly chatbot using \textbf{Meta's Llama-2-7B-Chat model}, optimized for resource-constrained environments through \textbf{quantization}.}
-\vspace{-0.5em}
-\item   {Managed the conversation flow effectively, using a \textbf{slide-up concept} to tokenize issues and ensure smooth interactions along with applying quantization techniques to improve the chatbot's performance in \textbf{resource constrained} environments.}
-\vspace{-0.5em}
-\item   {Designed and developed various features such as \textbf{natural language conversation flow}, \textbf{dynamic adaptation} to project descriptions, and \textbf{long conversation memory}, resulting in a more engaging and user-friendly chatbot experience.}
-\vspace{-0.5em}
-\item   {Implemented a \textbf{Streamlit} web application interface for seamless interaction, enabling efficient project information collection. Link -} \url{https://rupbanik-chatbot.streamlit.app/}
-\end{itemize}
-\vspace{-0.5em}
-\end{rSection} 
+\end{rSection}
+
+
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Awards and Achievements}
 
-{• Achieved a \textbf{top 0.5\%} ranking among \textbf{1M+} candidates in the \textbf{2021} Joint Entrance Examination (JEE) Advanced.}\\
-{• Achieved a \textbf{top 0.6\%} ranking among \textbf{1M+} candidates in the \textbf{2021} Joint Entrance Examination (JEE) Mains.}\\
-{• Achieved a \textbf{top 1\%} ranking among \textbf{100K+} candidates in the \textbf{2021} West Bengal Joint Entrance Examination.}\\
-{• Secured selection among \textbf{10K+} kgpians for a prestigious \textbf{Foreign Training Program} through the \textbf{International Relations Cell} at \textbf{IIT Kharagpur}.}
-\end{rSection}
-\vspace{-0.5em}
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{SKILLS SUMMARY}
@@ -147,10 +133,11 @@ Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.61/10
 Languages & | Python, R, C, C++, Java, HTML, CSS, SQL, Matlab, \LaTeX 
 \\
 Machine Learning Libraries & | Numpy, Matplotlib, Scikit-Learn, Tensorflow, OpenCV, PyTorch\\
-Development framework and Databases & | Flask, Docker, Kubernetes, GoLang, REST APIs, MySQL, PHP\\
+Development framework and Databases & | Flask, Docker, Django, DRF, REST APIs, MySQL, PHP\\
 Operating Systems & | Linux, Mac, Windows, Ubuntu\\
 Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Matlab, Google Colab \\
 Architectural Softwares and Tools & | AutoCAD, Autodesk Revit, Sketchup, Lumion, Rhino\\
+Cloud Computing platforms & | Microsoft Azure, Amazon Web Services (AWS)\\
 \end{tabular}
 \end{rSection}
 
@@ -181,14 +168,20 @@ Aided Design and Simulation (AR23303).
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-
+\vspace{-0.5em}
 \begin{rSection}{Extra Curricular Activities} 
 \begin{itemize}
+\textbf{Open IIT Product Design | IIT Kharagpur}\\
+•  Developed an \textbf{IoT}-enabled agricultural solution that aligns with Sustainable Development Goals \textbf{(SDGs)} and Self Reliant India initiative by promoting innovation, technology, export promotion, and sustainable green growth in the agritech sector.\\
+•  Created a comprehensive platform consisting of a \textbf{physical IoT device} with sensors to measure soil moisture, quality, humidity, temperature, and pest infection, integrated with cloud servers for data analysis and a mobile application to provide \textbf{analytics, insights}, and \textbf{recommendations} to farmers.\\
+•  Designed innovative solutions like \textbf{CropReco} for personalized crop recommendation based on land quality and market predictions, \textbf{PestSafe} for advanced pest warning and mitigation, \textbf{Crop Health Card} for soil health record and easy loan access, and \textbf{Water-It} for optimizing water and fertilizer usage, contributing to sustainable farming practices.
+
+\vspace{-0.5em}
 \textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {|Social Work}\\
   \textbf{•  Senior Executive Member} at Gopali Youth Welfare Society (GYWS), a \textbf{non-government organization (NGO)} run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\
 •  Spearheaded \textbf{Freshers' Selection Meet} and shortlisted \textbf{10 candidates} out of \textbf{60+ candidates}, who were highly skilled, aspirational and motivated to continue the legacy of GYWS forward.\\
 •  Conducted the \textbf{Introductory Workshop} to groom the newly selcted freshers to accustom them with work environment of GYWS. 
-
+\vspace{-0.5em}
 \item 	\textbf{Technology Adventure Society (TADS) :}\hfill{Design and Core team member}
 \\
 • Successfully orchestrated the \textbf{Virtual Cycle Trip}, boasting participation of over \textbf{100 students}.\\
